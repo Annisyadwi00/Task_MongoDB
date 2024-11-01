@@ -22,7 +22,6 @@ mongoose.connect(process.env.MONGO_URI!, { useNewUrlParser: true, useUnifiedTopo
 app.use(bodyParser.json());
 app.use(cors());
 
-// Swagger Documentation
 const swaggerOptions = {
   swaggerDefinition: {
     openapi: '3.0.0',
